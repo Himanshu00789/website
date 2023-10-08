@@ -1,0 +1,31 @@
+.contact{
+    background-color: rgba(27, 99, 40, 0.745);
+}
+
+.contact-info{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(160px,auto));
+    gap:3rem;
+}
+
+.contact-info{
+    color:black;
+    font-size: 14px;
+    text-transform:uppercase;
+    margin-bottom: 10px;
+}
+
+.contact-info p{
+    color:rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: all .42s;
+}
+
+.contact-info p:hover{
+    color: white;
+}
